@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Forum_app_Krupka:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>false</exploded>
+        <module>Forum_app_Krupka</module>
+        <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
+      </options>
+    </properties>
+    <root id="archive" name="Forum_app_Krupka-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Forum_app_Krupka:war exploded" />
+    </root>
+  </artifact>
+</component>
