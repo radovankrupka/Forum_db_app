@@ -2,24 +2,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>JSP - Hello World</title>
+    <title>Login Page</title>
 </head>
 <body>
-<h1><%= "Hello World!" %>
+<h1><%= "ENTER CREDENTIALS: " %>
 </h1>
-<br/>
+<br/> <br>
 
 
 <form action="Home" method="POST">
-    NICKNAME:      <input type="text" name="nickname"> <br>
-    PWD:        <input type="text" name="pwd"> <br>
+    NICKNAME:      <input type="text" name="nickname"> <br> <br>
+    PASSWORD:           <input type="password" name="pwd"> <br>  <br> <br>
 
     <input type="hidden" name="operacia" value="login">
     <input type="submit" value="SUBMIT">
 </form>
+<br>
+<br>
+<br>
+
+VALID CREDENTIALS: <br>
+NICKNAME  | PWD  <br>
+Janko123  | pouz1 <br>
+Ferko123  | pouz2 <br>
+Martin123 | pouz3 <br>
+Ignac123  | pouz4 <br>
+Spekulant123 | spek1 <br>
 
 
-
-<a href="hello-servlet">Hello Servlet</a>
 </body>
 </html>
