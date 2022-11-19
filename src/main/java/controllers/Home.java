@@ -30,7 +30,6 @@ public class Home extends HttpServlet {
             if (UserDAO.checkIfUserExists(request.getParameter("nickname"), request.getParameter("pwd"))) {
                 // USPESNE PRIHLASENIE
                 User user = UserDAO.getUserByNick(request.getParameter("nickname"));
-                System.out.println("corect");
                 session.setAttribute("user", user);
 
 
@@ -47,7 +46,6 @@ public class Home extends HttpServlet {
         }
 
         if (String.valueOf(request.getParameter("act")).equals("add")) {
-            System.out.println("true");
             request.getSession().setAttribute("act","add");
         }
 
