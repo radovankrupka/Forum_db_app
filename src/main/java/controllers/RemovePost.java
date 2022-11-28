@@ -8,7 +8,7 @@ import javax.servlet.annotation.*;
 import java.io.IOException;
 
 @WebServlet("/remove")
-public class RemovePost extends HttpServlet {
+public class RemovePost extends HttpServlet {   //MIGHT NOT WORK, SINCE I CHANGEDLOGIN PROTECTION
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         doPost(request, response);
